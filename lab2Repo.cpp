@@ -2,10 +2,26 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World! Change\n";
+    float A;
+    float B;
+    float X;
+
+    cout << "Hello, my name is Griffin and I'm going to solve the equation:\nAx + B = 0\nFor the value x" << endl;
+
+    cout << "Please enter a value for A: ";
+    cin >> A;
+    cout << "Please enter a value for B: ";
+    cin >> B;
+    
+    cout << "Solving " << A << "x + " << B << " = 0 for x..." << endl;
+    
+    X = (-B / A);
+    cout << "The answer is:\n" << X << endl;
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
