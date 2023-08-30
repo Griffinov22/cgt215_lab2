@@ -10,6 +10,7 @@ int main()
     float B;
     float X;
 
+    cout << "Hey Rushali! Hope your day is going well!\n";
     cout << "Hello, my name is Griffin and I'm going to solve the equation:\nAx + B = 0\nFor the value x" << endl;
 
     cout << "Please enter a value for A: ";
